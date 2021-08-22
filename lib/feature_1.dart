@@ -5,6 +5,11 @@ class Feature1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(child: Text('Feature_1'));
+    return Container(
+      child: TextButton(
+        onPressed: () {},
+        child: Text('Feature_1'),
+      ),
+    );
   }
 }
