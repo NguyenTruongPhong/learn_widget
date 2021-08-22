@@ -9,6 +9,9 @@ class Feature1 extends StatelessWidget {
       child: TextButton(
         onPressed: () {},
         child: Text('Feature_1'),
+        style: TextButton.styleFrom(
+          primary: Colors.amber,
+        ),
       ),
     );
   }
