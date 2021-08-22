@@ -11,6 +11,7 @@ class Feature1 extends StatelessWidget {
         child: Text('Feature_1'),
         style: TextButton.styleFrom(
           primary: Colors.amber,
+          backgroundColor: Colors.amberAccent,
         ),
       ),
     );
