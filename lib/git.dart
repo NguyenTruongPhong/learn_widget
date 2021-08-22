@@ -13,6 +13,7 @@ class Git extends StatelessWidget {
       ),
       margin: EdgeInsets.all(20),
       padding: EdgeInsets.all(20),
+      color: Colors.amber,
     );
   }
 }
