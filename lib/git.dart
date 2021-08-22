@@ -11,6 +11,7 @@ class Git extends StatelessWidget {
         style: TextStyle(
             color: Colors.red, fontSize: 20.0, fontWeight: FontWeight.bold),
       ),
+      margin: EdgeInsets.all(20),
     );
   }
 }
